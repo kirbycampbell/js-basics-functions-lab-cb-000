@@ -20,20 +20,3 @@ function distanceTravelledInFeet(start, finish){
     return (finish - start) * 264;
   }
 }
-
-function calculatesFarePrice(start, destination){
-  switch (distanceTravelledInFeet(start, destination){
-
-    case (distanceTravelledInFeet(start, destination)) <= 400):
-    return 0;
-
-    case (distanceTravelledInFeet(start, destination) <= 2000):
-      return ((distanceTravelledInFeet(start, destination) - 400) * 0.02);
-
-    case (distanceTravelledInFeet(start, destination) <= 2500):
-      return 25;
-
-    default:
-    return 'cannot travel that far';
-  }
-}
