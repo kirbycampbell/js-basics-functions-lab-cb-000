@@ -22,16 +22,15 @@ function distanceTravelledInFeet(start, finish){
 }
 
 function calculatesFarePrice(start, destination){
-  let a = (distanceTravelledInFeet(start, destination)
   switch(true){
 
-    case (a <= 400):
+    case ((distanceTravelledInFeet(start, destination) <= 400):
     return 0;
       break;
-    case (a <= 2000):
-      return ((a - 400) * 0.02);
+    case ((distanceTravelledInFeet(start, destination) <= 2000):
+      return (((distanceTravelledInFeet(start, destination) - 400) * 0.02);
       break;
-    case (a <= 2500):
+    case ((distanceTravelledInFeet(start, destination) <= 2500):
       return 25;
       break;
     default:
