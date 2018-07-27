@@ -7,6 +7,7 @@ function distanceFromHqInBlocks(n){
     return n - 42;
   }
 }
+
 function distanceFromHqInFeet(n){
   return distanceFromHqInBlocks(n) * 264;
 }
@@ -22,7 +23,7 @@ function distanceTravelledInFeet(start, finish){
 
 function calculatesFarePrice(start, destination){
   let a = (distanceTravelledInFeet(start, destination)
-  switch(true)
+  switch(true){
 
     case (a <= 400):
     return 0;
