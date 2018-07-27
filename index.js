@@ -8,3 +8,5 @@ function distanceFromHqInBlocks(n){
     return n - 42;
   }
 }
+
+
