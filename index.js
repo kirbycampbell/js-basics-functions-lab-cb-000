@@ -26,13 +26,13 @@ function calculatesFarePrice(start, destination){
 
     case (distanceTravelledInFeet(start, destination)) <= 400):
     return 0;
-      break;
+
     case (distanceTravelledInFeet(start, destination) <= 2000):
       return ((distanceTravelledInFeet(start, destination) - 400) * 0.02);
-      break;
+
     case (distanceTravelledInFeet(start, destination) <= 2500):
       return 25;
-      break;
+
     default:
     return 'cannot travel that far';
   }
